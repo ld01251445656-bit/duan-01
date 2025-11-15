@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="vi-VN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css selectors</title>
+
+    <style>
+      /* 
+        Sử dụng css Selectors để gọi ra phần tử HTML mà chúng ta
+        */
+      h2 {
+        color: blueviolet;
+      }
+      h4 {
+        color: brown;
+      }
+    </style>
+
+    <!-- external css -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- inline css -->
+    <h1 style="color: aqua">Đây là con khỉ</h1>
+    <h2>đây là con khỉ 2</h2>
+    <h3>đây là con khỉ 3</h3>
+    <h4>đây là con khỉ 4</h4>
+
+    <!-- id selector -->
+    <p id="doan-van-1">Lorem ipsum dolor sit amet.</p>
+    <p id="doan-van-2">Lorem ipsum dolor sit amet.</p>
+
+    <button class="btn btn1">Button 1</button>
+    <button class="btn btn2">Button 2</button>
+    <!-- emt: button.btn*5{Button$} -->
+    <button class="btn">button1</button>
+    <button class="btn">button2</button>
+    <button class="btn">button3</button>
+    <button class="btn">button4</button>
+    <button class="btn">button5</button>
+  </body>
+</html>

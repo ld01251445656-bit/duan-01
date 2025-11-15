@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi-VN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form element</title>
+  </head>
+  <body>
+    <form action="#">
+      <label for="firstname">First name</label>
+      <input type="text" id="firstname" />
+      <br />
+      <br />
+      <label for="lastname">Last name</label>
+      <input type="text" id="lastname" />
+      <br />
+      <p>Chọn ngôn ngũ bạn thích nhất:</p>
+      <input type="radio" id="html" name="language" value="hmtl-css" />
+      <label for="html">HTML, CSS</label>
+      <br />
+      <input type="radio" id="C" name="language" value="C" />
+      <label for="C">C</label>
+      <br />
+      <br />
+      <p>Sở thích của bạn</p>
+      <input type="checkbox" id="travl" name="hobbies" value="travl" />
+      <label for="travel">Du lịch</label>
+      <br />
+      <input type="checkbox" id="cooking" name="hobbies" value="cooking" />
+      <label for="cooking">Nấu ăn</label>
+      <br />
+      <input type="checkbox" id="camping" name="hobbies" value="camping" />
+      <label for="camping">Cắm trại</label>
+      <br />
+      <br />
+      <label for="city">Tỉnh/Thành</label>
+      <select name="city" id="city">
+        <option value="" selected>Chọn tỉnh/thành phố</option>
+        <option value="hanoi">Hà Nội</option>
+        <option value="hochiminh">Hồ Chí Minh</option>
+        <option value="camau">Cà mau</option>
+      </select>
+      <br />
+      <br />
+      <label for="message">Nội dung</label>
+      <br />
+      <textarea name="message" id="message" rows="5" cols="50"></textarea>
+      <br />
+      <input type="submit" value="Click in" />
+      <br />
+      <br />
+      <input type="button" value="Click me" />
+      <br />
+      <br />
+      <button>Click here</button>
+    </form>
+  </body>
+</html>
